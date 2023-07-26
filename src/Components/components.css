@@ -1,0 +1,191 @@
+/* Navbar  */
+body{
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8f9fd; 
+    padding: 1rem;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0aa1dd; 
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #0aa1dd;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: #2155cd;
+  }
+  
+  .navbar button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #2155cd;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar button:hover {
+    background-color: #79dae8; 
+  }
+  
+/* Home */
+.home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .home div {
+    padding: 1rem;
+    border: 1px solid #79dae8;
+    border-radius: 5px;
+  }
+  
+  .home h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #0aa1dd;
+  }
+  
+  .home p {
+    margin: 0;
+    font-size: 1rem;
+    color: #2155cd; 
+  }
+  
+  .home button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #2155cd;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .home button:hover {
+    background-color: #79dae8;
+  }
+
+/* Create Habit */
+.create-habit {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #e8f9fd;
+    border-radius: 5px;
+    margin-top: 2%;
+  }
+  
+  .create-habit h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0aa1dd;
+    margin-bottom: 1rem;
+  }
+  
+  .create-habit form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .habit-input {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .habit-input label {
+    font-size: 1rem;
+    color: #2155cd;
+  }
+  
+  .habit-input input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #79dae8; 
+    border-radius: 5px;
+  }
+  
+  .create-habit button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #2155cd;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .create-habit button:hover {
+    background-color: #79dae8;
+  }
+  
+/* Habit Details */
+
+.habit-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #e8f9fd; 
+    border-radius: 5px;
+  }
+  
+  .habit-details button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #2155cd; 
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .habit-details button:hover {
+    background-color: #79dae8;
+  }
+  
+  .week-render {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border: 1px solid #79dae8; 
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .week-render p {
+    margin: 0;
+    font-size: 1rem;
+    color: #0aa1dd; 
+  }
+  
+  .week-render button {
+    padding: 0.3rem 0.7rem;
+    border: none;
+    background-color: #2155cd;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .week-render button:hover {
+    background-color: #79dae8;
+  }
+  
